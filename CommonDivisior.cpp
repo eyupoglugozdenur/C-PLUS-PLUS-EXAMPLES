@@ -8,9 +8,9 @@ int main() {
 
 	int num1, num2, max;
 
-	cout << "please enter first number: " << endl;
+	cout << "Please enter first number: " << endl;
 	cin >> num1;
-	cout << "please enter second number: " << endl;
+	cout << "Please enter second number: " << endl;
 	cin >> num2;
 
 	if (num1 < num2) {
@@ -27,7 +27,7 @@ int main() {
 		
 		if (num1%i==0 && num2%i==0) {
 
-			cout << " Common divisor: " << i << endl;
+			cout << " Common divsor: " << i << endl;
 			counter += 1;
 		}
 		
@@ -36,7 +36,7 @@ int main() {
 	}
 
 	if (counter == 0) {
-		cout << "There's no common divisior!" << endl;
+		cout << "There's no common divisor!" << endl;
 	}
 	
 
