@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 
-	int num1, num2, min, max;
+	int num1, num2, max;
 
 	cout << "please enter first number: " << endl;
 	cin >> num1;
@@ -14,11 +14,9 @@ int main() {
 	cin >> num2;
 
 	if (num1 < num2) {
-		min = num1;
 		max = num2;
 	}
 	else {
-		min = num2;
 		max = num1;
 	}
 
@@ -27,7 +25,7 @@ int main() {
 
 	while (i<=max) {
 		
-		if (min%i==0 && max%i==0) {
+		if (num1%i==0 && num2%i==0) {
 
 			cout << " Common divisor: " << i << endl;
 			counter += 1;
@@ -44,4 +42,3 @@ int main() {
 
 	return 0;
 }
-
